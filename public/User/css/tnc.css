@@ -1,0 +1,22 @@
+.tnc p:first-child{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+.tnc{
+
+    
+    margin-top: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.tnc p:nth-child(2){
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 30px;
+}

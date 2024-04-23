@@ -1,0 +1,92 @@
+/* body{
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    backdrop-filter: blur(10px);
+ 
+  
+} */
+
+
+/* 
+.container{
+
+    margin-top: 150px;
+} */
+.details img{
+    width: 150px;
+}
+.details td{
+text-align: center;
+}
+.details th{
+    text-align: center;
+    }
+/* .card table{
+        border-color: red;
+        border-style: solid;
+    } */
+
+    .cart thead{
+
+        text-transform: uppercase;
+        background-image: linear-gradient(rgb(166, 248, 112), rgb(116, 219, 245));
+    }
+.carddetails h1{
+
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.pricedetails h2{
+
+    font-size: larger;
+    font-weight: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.delete{
+   background-color: red;
+}
+.cart{
+    overflow-x: auto;
+}
+#checkout{
+    text-transform: uppercase;
+}
+.emptycart{
+
+  font-size: 25px;
+  background-color: aqua;
+
+
+}
+.delete1 button{
+
+
+    background-color: white;
+    border: none;
+    color: red;
+    /* padding: 15px 32px; */
+    /* text-align: center; */
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    /* margin-top: 15px; */
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  .headcart h1{
+
+ text-transform: uppercase;
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: 400;
+ background-image: linear-gradient( rgb(236, 225, 122),rgba(131, 127, 199, 0.568));
+
+
+  }
+
+  .headcart{
+      margin-top: 15px;
+  }

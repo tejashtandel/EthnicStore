@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@350&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+
+
+
+.mySlides {
+    margin: 50px 150px 50px 150px;
+    width: 460px;
+}
+
+/* .product-text-detail{
+
+    border-style: solid;
+    border-color: aliceblue;
+} */
+.imagec {
+    margin-top: 20px;
+}
+.img-display {
+    overflow: hidden;
+}
+
+.img-showcase {
+    display: flex;
+    width: 220%;
+    height: 220%;
+    transition: all 0.5s ease;
+}
+
+.img-showcase img {
+    width: 35%;
+    margin-left: 150px;
+}
+
+.img-select {
+    display: flex;
+}
+
+.img-item {
+    margin-top: 20px;
+}
+.img-item img {
+    width: 100%;
+    height: 80%;
+}
+.img-item:nth-child(1),
+.img-item:nth-child(2),
+.img-item:nth-child(3) {
+    margin-right: 45px;
+}
+
+.img-item:hover {
+    opacity: 0.8;
+}
+
+.owl {
+    margin-top: 80px;
+}
+
+.small-img-col img {
+    width: 170px;
+    margin-left: 10px;
+}
+.details {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 350;
+    color: rgb(37, 36, 33);
+    font-size: 19px;
+    text-transform: capitalize;
+    opacity: 0.8;
+    
+}
+.details .dh1 {
+    text-align: left;
+    text-transform: capitalize;
+    
+}
+.details .dh2 {
+    text-align: left;
+    text-transform: capitalize;
+}
+.details textarea {
+    resize: none;
+    border: none;
+    width: 100%;
+    font-size: medium;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 350;
+    color: rgb(37, 36, 33);
+    font-size: 19px;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+.name {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.mprice{
+    
+    font-family: 'Secular One', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+.size{
+    font-size: 20px;
+}
+.mdetails{
+    padding-top: 5px;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(217, 255, 215);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.brand{
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(217, 255, 215);
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.description{
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(217, 255, 215);
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.cardstyle {
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;  
+}
+
+#prod {
+    background-color: aqua;
+}
+/* .add{
+    opacity: 0;
+   position: absolute;
+   background-color: red;
+   text-align: center;
+ 
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+.add2{
+   opacity: 0;
+   position: absolute;
+   background-color: red;
+   color: white;
+} */
+.image:hover .add {
+    opacity: 1;
+    bottom: 13px;
+}
+.image:hover .add2 {
+    opacity: 1;
+    top: 0px;
+}
+
+.owl-prev {
+    position: absolute;
+
+    left: 0;
+    bottom: 450px;
+}
+.owl-next {
+    position: absolute;
+
+    right: 0;
+    bottom: 450px;
+}
+@media only screen and (min-width: 1501px) and (max-width: 1800px) {
+    .mySlides {
+        margin: 50px 150px 50px 150px;
+        width: 400px;
+
+        display: flex;
+    }
+    .small-img-col img {
+        width: 140px;
+        margin-left: 10px;
+    }
+}
+@media only screen and (min-width: 1199px) and (max-width: 1500px) {
+    .mySlides {
+        width: 360px;
+        margin: 10px 100px 10px 150px;
+        display: flex;
+    }
+    .small-img-col img {
+        width: 120px;
+        margin-left: 10px;
+    }
+    .mainheading {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 230;
+        font-size: 23px;
+    }
+}
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .mySlides {
+        width: 300px;
+        margin: 10px 100px 10px 90px;
+        display: flex;
+    }
+    .img-item img {
+        width: 150px;
+        height: 150px;
+    }
+    .img-showcase img {
+        width: 35%;
+        margin-left: 130px;
+    }
+    .img-item:nth-child(1),
+    .img-item:nth-child(2),
+    .img-item:nth-child(3) {
+        margin-right: 10px;
+    }
+}
+@media only screen and (min-width: 792px) and (max-width: 900px) {
+    .mySlides {
+        width: 250px;
+        margin: 10px 100px 10px 90px;
+        display: flex;
+    }
+    .img-item img {
+        width: 80px;
+        height: 80px;
+    }
+    .img-showcase img {
+        width: 35%;
+        margin-left: 50px;
+    }
+    .img-item:nth-child(1),
+    .img-item:nth-child(2),
+    .img-item:nth-child(3) {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .mySlides {
+        width: 160px;
+        margin: 10px 50px 10px 90px;
+        display: flex;
+    }
+    .img-item img {
+        width: 50px;
+        height: 50px;
+    }
+    .img-showcase img {
+        width: 35%;
+        margin-left: 50px;
+    }
+    .img-item:nth-child(1),
+    .img-item:nth-child(2),
+    .img-item:nth-child(3) {
+        margin-right: 10px;
+    }
+}

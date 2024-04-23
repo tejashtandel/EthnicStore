@@ -1,0 +1,41 @@
+body{
+    
+    background-image: repeating-linear-gradient(rgb(146, 211, 241),white,rgb(61, 56, 56),rgb(146, 211, 241));
+    /* background-repeat: repeat-x; */
+    background-attachment: fixed;
+    background-position: center;
+}
+.fill{
+    
+background-image: repeating-linear-gradient(rgb(186, 247, 244),rgb(216, 247, 176));
+
+}
+.fill div:first-child{
+
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-body h2{
+
+    text-align: center;
+    margin-bottom: 50px;
+}
+.content{
+
+    justify-content: center;
+}
+
+.card-body input{
+
+    margin-top: 10px;
+}
+.card-body strong{
+
+    margin-bottom: 50px;
+}
+
+
+
+
